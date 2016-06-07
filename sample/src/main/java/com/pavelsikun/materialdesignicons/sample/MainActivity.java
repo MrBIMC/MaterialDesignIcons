@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements MenuItem.OnMenuIt
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
-        String url = "https://github.com/MrBIMC/";
+        String url = "https://github.com/MrBIMC/MaterialDesignIcons/";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);

@@ -19,6 +19,11 @@ android {
     }
 }
 
-dependencies {
-    androidTestCompile 'com.android.support:support-annotations:23.4.0'
+ext {
+    PUBLISH_GROUP_ID = 'com.pavelsikun'
+    PUBLISH_ARTIFACT_ID = 'materialdesignicons'
+    PUBLISH_VERSION = '1.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+// ./gradlew clean build generateRelease
