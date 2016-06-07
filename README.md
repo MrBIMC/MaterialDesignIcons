@@ -20,6 +20,17 @@ All icons are "#000000", so tint them manually:
   icon.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP);
 ```
 
+Don't forget to enable proguard, so your app doesn't include 5mb of useless drawables:
+```groovy
+android {
+//...
+  buildTypes {
+  //...
+    release {
+      minifyEnabled true
+      shrinkResources true
+```
+
 -------
 Check out the [sample project](sample) for more details.
 
