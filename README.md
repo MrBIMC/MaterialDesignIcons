@@ -5,7 +5,7 @@ Lib that imports all the vector drawables from materialdesignicons.com into your
 
 Reference lib from jcenter:
 ```groovy 
-  compile 'com.pavelsikun:materialdesignicons:1.0' //uploading right now (00:29 EEST 08.06.2016)
+  compile 'com.pavelsikun:materialdesignicons:1.0' 
 ```
 Done! Clean/Build so project updates list of resources. All the drawables are awailable through:
 ```xml
